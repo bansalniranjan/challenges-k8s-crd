@@ -82,11 +82,11 @@ https://github.com/martin-helmich/kubernetes-crd-example
 https://kubernetes.io/docs/concepts/services-networking/service/
 #+END_EXAMPLE
 
-#+BEGIN_EXPORT HTML
+#+BEGIN_HTML
 <a href="https://www.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
 
 <a href="https://www.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/dns_small.png"></a>
-#+END_EXPORT
+#+END_HTML
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * k8s OpenAPI-Specification                                        :noexport:
 https://github.com/OAI/OpenAPI-Specification
@@ -94,6 +94,8 @@ https://github.com/OAI/OpenAPI-Specification
 https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#schemaObject
 ** TODO dynamic validate CRD per different types: https://github.com/pivotal-cf/namespace-drain/commit/3082432ba09093daf18263ee2c6e97814b300c6e#r29613054
 * [#A] kubernets CRD                                               :noexport:
+** TODO [#A] Implement controller
+https://github.com/kubernetes/sample-controller
 ** Implement CRD controller
  https://medium.com/@trstringer/create-kubernetes-controllers-for-core-and-custom-resources-62fc35ad64a3
  https://github.com/kubernetes/sample-controller
@@ -142,3 +144,5 @@ and
 
 /apis/stable.example.com/v1/namespaces/*/crontabs/scale
 #+END_EXAMPLE
+* CRD controller: handle resource deletion events                  :noexport:
+* TODO CRD scope: cluster: how to validate it                      :noexport:
